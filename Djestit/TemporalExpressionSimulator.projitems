@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{FA0DBD59-C5B6-47D4-8263-1F5398CF578C}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Djestit</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Choice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositeTerm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Disabling.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ExpressionEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GroundTerm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Iterative.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OrderIndependece.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Parallel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sensor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sequence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TokenSequence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Term.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Token.cs" />
+  </ItemGroup>
+</Project>

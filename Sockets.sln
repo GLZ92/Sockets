@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets", "Sockets\Sockets.csproj", "{D1927B11-88E3-44D0-B776-8133C08FB931}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TemporalExpressionSimulator", "Djestit\TemporalExpressionSimulator.shproj", "{FA0DBD59-C5B6-47D4-8263-1F5398CF578C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionSimulatorTest", "ExpressionSimulatorTest\ExpressionSimulatorTest.csproj", "{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTaskSimulator", "ConsoleTaskSimulator\ConsoleTaskSimulator.csproj", "{CC296817-5015-463F-B4DA-1A9026E0042C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,22 @@ Global
 		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|x64.ActiveCfg = Release|x64
 		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|x64.Build.0 = Release|x64
+		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Release|x64.Build.0 = Release|Any CPU
+		{CC296817-5015-463F-B4DA-1A9026E0042C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC296817-5015-463F-B4DA-1A9026E0042C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC296817-5015-463F-B4DA-1A9026E0042C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC296817-5015-463F-B4DA-1A9026E0042C}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC296817-5015-463F-B4DA-1A9026E0042C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC296817-5015-463F-B4DA-1A9026E0042C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC296817-5015-463F-B4DA-1A9026E0042C}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC296817-5015-463F-B4DA-1A9026E0042C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

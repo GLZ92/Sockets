@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\Djestit\TemporalExpressionSimulator.projitems" Label="Shared" Condition="Exists('..\Djestit\TemporalExpressionSimulator.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -54,40 +55,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Handlebars, Version=1.0.0.0, Culture=neutral, PublicKeyToken=22225d0bf33cd661, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Debug\Handlebars.dll</HintPath>
-    </Reference>
-    <Reference Include="LeapCSharp.NET4.0, Version=2.3.0.0, Culture=neutral, PublicKeyToken=6e1b1368e71eba9b, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Debug\LeapCSharp.NET4.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Kinect, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Debug\Microsoft.Kinect.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Kinect.Face, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Debug\Microsoft.Kinect.Face.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Kinect.VisualGestureBuilder, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Debug\Microsoft.Kinect.VisualGestureBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Kinect.Wpf.Controls, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Debug\Microsoft.Kinect.Wpf.Controls.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Debug\Microsoft.Speech.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Debug\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -102,46 +69,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Djestit\Choice.cs" />
-    <Compile Include="Djestit\CompositeTerm.cs" />
-    <Compile Include="Djestit\Disabling.cs" />
-    <Compile Include="Djestit\ErrorToleranceManager\ErrorTolerance.cs" />
-    <Compile Include="Djestit\Expression.cs" />
-    <Compile Include="Djestit\GestureEventArgs.cs" />
-    <Compile Include="Djestit\GroundTerm.cs" />
-    <Compile Include="Djestit\Iterative.cs" />
-    <Compile Include="Djestit\OrderIndependece.cs" />
-    <Compile Include="Djestit\Parallel.cs" />
-    <Compile Include="Djestit\Sensor.cs" />
-    <Compile Include="Djestit\Sequence.cs" />
-    <Compile Include="Djestit\StateSequence.cs" />
-    <Compile Include="Djestit\Term.cs" />
-    <Compile Include="Djestit\Token.cs" />
-    <Compile Include="Djestit\TokenFireArgs.cs" />
-    <Compile Include="Feed\FeedBack\Conflict\ConflictManager.cs" />
-    <Compile Include="Feed\FeedBack\Feedback.cs" />
-    <Compile Include="Feed\FeedBack\TransactionsManager.cs" />
-    <Compile Include="Feed\FeedBack\Tree\FeedbackComposite.cs" />
-    <Compile Include="Feed\FeedBack\Tree\FeedbackGesture.cs" />
-    <Compile Include="Feed\FeedBack\Tree\FeedbackGroup.cs" />
-    <Compile Include="Feed\FeedBack\Tree\FeedbackLeaf.cs" />
-    <Compile Include="Feed\FeedBack\Tree\FeedbackRoot.cs" />
-    <Compile Include="Feed\FeedBack\Tree\Wrapper\CustomAttributes\InvalidModifiesException.cs" />
-    <Compile Include="Feed\FeedBack\Tree\Wrapper\CustomAttributes\Modifies.cs" />
-    <Compile Include="Feed\FeedBack\Tree\Wrapper\FeedbackGroupEventArgs.cs" />
-    <Compile Include="Feed\FeedBack\Tree\Wrapper\Handler\Handler.cs" />
-    <Compile Include="Feed\FeedBack\Tree\Wrapper\Likelihood\ComputeLikelihood.cs" />
-    <Compile Include="Feed\FeedBack\Tree\Wrapper\Likelihood\Likelihood.cs" />
-    <Compile Include="Feed\FeedForward\GestureSegments.cs" />
-    <Compile Include="Feed\FeedForward\Segment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Analyzer Include="..\..\..\..\..\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Concurrency\" />
