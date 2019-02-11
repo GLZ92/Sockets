@@ -11,9 +11,9 @@ namespace ExpressionSimulatorTest
     public class TestSensor: Sensor 
     { 
         public TestSensor(Term root, int capacity) : 
-            base(root,capacity)
-        { 
-        
+            base(capacity)
+        {
+            this.Root = root;
         }
     }
 
