@@ -3,15 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets", "Sockets\Sockets.csproj", "{D1927B11-88E3-44D0-B776-8133C08FB931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockets", "Sockets\Sockets.csproj", "{D1927B11-88E3-44D0-B776-8133C08FB931}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TemporalExpressionSimulator", "Djestit\TemporalExpressionSimulator.shproj", "{FA0DBD59-C5B6-47D4-8263-1F5398CF578C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionSimulatorTest", "ExpressionSimulatorTest\ExpressionSimulatorTest.csproj", "{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionSimulatorTest", "ExpressionSimulatorTest\ExpressionSimulatorTest.csproj", "{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTaskSimulator", "ConsoleTaskSimulator\ConsoleTaskSimulator.csproj", "{CC296817-5015-463F-B4DA-1A9026E0042C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTaskSimulator", "ConsoleTaskSimulator\ConsoleTaskSimulator.csproj", "{CC296817-5015-463F-B4DA-1A9026E0042C}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Djestit\TemporalExpressionSimulator.projitems*{fa0dbd59-c5b6-47d4-8263-1f5398cf578c}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -21,12 +24,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D1927B11-88E3-44D0-B776-8133C08FB931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D1927B11-88E3-44D0-B776-8133C08FB931}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1927B11-88E3-44D0-B776-8133C08FB931}.Debug|x64.ActiveCfg = Debug|x64
-		{D1927B11-88E3-44D0-B776-8133C08FB931}.Debug|x64.Build.0 = Debug|x64
+		{D1927B11-88E3-44D0-B776-8133C08FB931}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D1927B11-88E3-44D0-B776-8133C08FB931}.Debug|x64.Build.0 = Debug|Any CPU
 		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|x64.ActiveCfg = Release|x64
-		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|x64.Build.0 = Release|x64
+		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|x64.ActiveCfg = Release|Any CPU
+		{D1927B11-88E3-44D0-B776-8133C08FB931}.Release|x64.Build.0 = Release|Any CPU
 		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC682E7B-4AA0-4F5A-A86D-620E90B714AE}.Debug|x64.ActiveCfg = Debug|Any CPU

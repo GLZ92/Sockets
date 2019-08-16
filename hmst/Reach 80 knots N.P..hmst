@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamsters version="4">
+    <colors applicationcolor="-11141309" declarativecolor="-1854465" devicecolor="-8879105" eventcolor="-6250336" informationcolor="-16724941" inputdevicecolor="-8879105" objectcolor="-14336" outputdevicecolor="-8879105" physicalobjectcolor="-14336" situationalcolor="-3290107" strategiccolor="-4136705" timeccolor="-105247"/>
+    <nodes>
+        <task copy="false" critical="0" duration="false" folded="false" help="" id="2" iterative="false" maxexectime="0" minexectime="0" name="Reach 80 knots N.P." nb_iteration="0" optional="false" type="subroutine" x="1266" y="70">
+            <operator id="90" knowledgeproceduraltype="" type="concurrent" x="1320" y="170">
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="89" iterative="true" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Head management" nb_iteration="0" optional="false" subtree="Head management" type="subroutine" x="926" y="190"/>
+                <operator id="3" knowledgeproceduraltype="" type="enable" x="1320" y="263">
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="18" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D info" nb_iteration="0" optional="false" type="input" x="-453" y="377"/>
+                    <operator id="16" knowledgeproceduraltype="" type="concurrent" x="736" y="298">
+                        <operator id="13" knowledgeproceduraltype="" type="enable" x="-125" y="483">
+                            <operator id="20" knowledgeproceduraltype="" type="concurrent" x="-536" y="563">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="19" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion" nb_iteration="0" optional="false" type="sight" x="-679" y="636"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="21" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the information" nb_iteration="0" optional="false" type="sight" x="-536" y="636"/>
+                            </operator>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="31" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="-496" y="563"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="32" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="-344" y="563"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="9" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand  Grasp " nb_iteration="0" optional="false" type="Hand Right Grasp" x="-146" y="563"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="10" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand  Move &#10;the stick" nb_iteration="0" optional="false" type="Hand Right Finger Move" x="-18" y="563"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="11" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Move the stick forward" nb_iteration="0" optional="false" type="input" x="111" y="563"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="24" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D confirmation" nb_iteration="0" optional="false" type="output" x="307" y="563"/>
+                            <operator id="27" knowledgeproceduraltype="" type="concurrent" x="485" y="573">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="25" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the confirmation" nb_iteration="0" optional="false" type="sight" x="370" y="653"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="26" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the green tick" nb_iteration="0" optional="false" type="sight" x="538" y="643"/>
+                            </operator>
+                        </operator>
+                        <operator id="14" knowledgeproceduraltype="" type="enable" x="1280" y="501">
+                            <operator id="22" knowledgeproceduraltype="" type="concurrent" x="868" y="581">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="12" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion:&#10;" nb_iteration="0" optional="false" type="sight" x="760" y="646"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="23" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the information" nb_iteration="0" optional="false" type="sight" x="908" y="654"/>
+                            </operator>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="33" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="908" y="581"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="34" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="1060" y="581"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="6" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand  Grasp " nb_iteration="0" optional="false" type="Hand Right Grasp" x="1258" y="581"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="8" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Move &#10;the thrust levers&#10;until to position" nb_iteration="0" optional="false" type="Hand Right Finger Move" x="1386" y="581"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="5" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Move the Thrust Levers&#10;until to position&#10;" nb_iteration="0" optional="false" type="input" x="1546" y="581"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="35" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D confirmation" nb_iteration="0" optional="false" type="output" x="1708" y="571"/>
+                            <operator id="29" knowledgeproceduraltype="" type="concurrent" x="1874" y="571">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="28" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the confirmation: &quot;Good&quot;" nb_iteration="0" optional="false" type="sight" x="1744" y="671"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="30" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the green tick" nb_iteration="0" optional="false" type="sight" x="2003" y="678"/>
+                            </operator>
+                        </operator>
+                    </operator>
+                    <operator id="73" knowledgeproceduraltype="" type="enable" x="3104" y="298">
+                        <operator id="36" knowledgeproceduraltype="" type="enable" x="2669" y="494">
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="37" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D info" nb_iteration="0" optional="false" type="output" x="2167" y="681"/>
+                            <operator id="39" knowledgeproceduraltype="" type="concurrent" x="2396" y="674">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="38" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion:&#10;" nb_iteration="0" optional="false" type="sight" x="2276" y="744"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="40" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the hourglass" nb_iteration="0" optional="false" type="sight" x="2422" y="747"/>
+                            </operator>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="41" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="2517" y="687"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="42" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="2651" y="694"/>
+                            <task copy="false" critical="0" duration="true" folded="false" help="" id="43" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Wait Speed reach limit" nb_iteration="0" optional="false" type="cognitive" x="2849" y="705"/>
+                        </operator>
+                        <operator id="50" knowledgeproceduraltype="" type="concurrent" x="3995" y="494">
+                            <operator id="51" knowledgeproceduraltype="" type="enable" x="3513" y="748">
+                                <operator id="44" knowledgeproceduraltype="" type="concurrent" x="3093" y="869">
+                                    <task copy="false" critical="0" duration="false" folded="false" help="" id="46" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion" nb_iteration="0" optional="false" type="sight" x="2960" y="915"/>
+                                    <task copy="false" critical="0" duration="false" folded="false" help="" id="48" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the information" nb_iteration="0" optional="false" type="sight" x="3144" y="920"/>
+                                </operator>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="49" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="3163" y="855"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="53" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand  Grasp " nb_iteration="0" optional="false" type="Hand Right Grasp" x="3513" y="855"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="52" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="3315" y="859"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="54" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand  Move &#10;the stick" nb_iteration="0" optional="false" type="Hand Right Finger Move" x="3608" y="851"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="55" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Move the stick forward" nb_iteration="0" optional="false" type="input" x="3701" y="855"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="60" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D confirmation" nb_iteration="0" optional="false" type="output" x="3863" y="851"/>
+                                <operator id="62" knowledgeproceduraltype="" type="concurrent" x="4023" y="866">
+                                    <task copy="false" critical="0" duration="false" folded="false" help="" id="61" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the confirmation" nb_iteration="0" optional="false" type="sight" x="3924" y="929"/>
+                                    <task copy="false" critical="0" duration="false" folded="false" help="" id="63" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the green tick" nb_iteration="0" optional="false" type="sight" x="4063" y="929"/>
+                                </operator>
+                            </operator>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="47" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D info" nb_iteration="0" optional="false" type="output" x="3163" y="692"/>
+                            <operator id="57" knowledgeproceduraltype="" type="enable" x="4753" y="728">
+                                <operator id="58" knowledgeproceduraltype="" type="concurrent" x="4331" y="857">
+                                    <task copy="false" critical="0" duration="false" folded="false" help="" id="56" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion:&#10;" nb_iteration="0" optional="false" type="sight" x="4242" y="936"/>
+                                    <task copy="false" critical="0" duration="false" folded="false" help="" id="59" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the information" nb_iteration="0" optional="false" type="sight" x="4378" y="936"/>
+                                </operator>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="64" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="4419" y="850"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="65" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="4580" y="843"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="66" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand  Grasp " nb_iteration="0" optional="false" type="Hand Right Grasp" x="4778" y="843"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="67" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Move &#10;the thrust levers&#10;until to position" nb_iteration="0" optional="false" type="Hand Right Finger Move" x="4892" y="833"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="68" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Move the Thrust Levers&#10;until to position&#10;" nb_iteration="0" optional="false" type="input" x="5005" y="833"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="69" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D confirmation" nb_iteration="0" optional="false" type="output" x="5165" y="833"/>
+                                <operator id="71" knowledgeproceduraltype="" type="concurrent" x="5365" y="850">
+                                    <task copy="false" critical="0" duration="false" folded="false" help="" id="70" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the confirmation: &quot;Good&quot;" nb_iteration="0" optional="false" type="sight" x="5206" y="933"/>
+                                    <task copy="false" critical="0" duration="false" folded="false" help="" id="72" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the green tick" nb_iteration="0" optional="false" type="sight" x="5389" y="936"/>
+                                </operator>
+                            </operator>
+                        </operator>
+                    </operator>
+                </operator>
+            </operator>
+        </task>
+    </nodes>
+    <datas>
+        <data name="Thrust Levers" oldname="Thrust Levers" type="Device" x="1231" y="688">
+            <link feature="none" sourceid="5" type="Access" value=""/>
+            <link feature="none" sourceid="8" type="Access" value=""/>
+            <link feature="none" sourceid="6" type="Access" value=""/>
+        </data>
+        <data name="SideStick" oldname="Input Device" type="Input Device" x="-42" y="660">
+            <link feature="none" sourceid="11" type="Access" value=""/>
+            <link feature="none" sourceid="10" type="Access" value=""/>
+            <link feature="none" sourceid="9" type="Access" value=""/>
+        </data>
+        <data name="Sidestick circle" oldname="Produced circle" type="Information" x="-546" y="503">
+            <link feature="none" sourceid="18" type="Store" value=""/>
+            <link feature="none" sourceid="21" type="Access" value=""/>
+        </data>
+        <data name="Hololens" oldname="" type="Device" x="144" y="786">
+            <link feature="none" sourceid="21" type="Access" value=""/>
+            <link feature="none" sourceid="18" type="Access" value=""/>
+            <link feature="none" sourceid="19" type="Access" value=""/>
+            <link feature="none" sourceid="12" type="Access" value=""/>
+            <link feature="none" sourceid="23" type="Access" value=""/>
+            <link feature="none" sourceid="25" type="Access" value=""/>
+            <link feature="none" sourceid="26" type="Access" value=""/>
+            <link feature="none" sourceid="24" type="Access" value=""/>
+            <link feature="none" sourceid="28" type="Access" value=""/>
+            <link feature="none" sourceid="30" type="Access" value=""/>
+        </data>
+        <data name="Confirmation . &quot;Good&quot;" oldname="Good" type="Information" x="171" y="639">
+            <link feature="none" sourceid="25" type="Access" value=""/>
+            <link feature="none" sourceid="24" type="Store" value=""/>
+        </data>
+        <data name="Thrust circle" oldname="Information" type="Information" x="748" y="728">
+            <link feature="none" sourceid="18" type="Store" value=""/>
+            <link feature="none" sourceid="23" type="Access" value=""/>
+        </data>
+        <data name="Suggestion &quot;Apply half &#10;forward stick until&#10;the airspeed reaches&#10;80 knots&quot;" oldname="Suggestion half forward stick" type="Information" x="-806" y="503">
+            <link feature="none" sourceid="18" type="Store" value=""/>
+            <link feature="none" sourceid="19" type="Access" value=""/>
+        </data>
+        <data name="Produce tick" oldname="Information" type="Information" x="445" y="725">
+            <link feature="none" sourceid="24" type="Store" value=""/>
+            <link feature="none" sourceid="26" type="Access" value=""/>
+        </data>
+        <data name="Suggestion &quot; Set the THR Levers &#10;to TO GA or FLX &quot;" oldname="Information" type="Information" x="633" y="467">
+            <link feature="none" sourceid="18" type="Store" value=""/>
+            <link feature="none" sourceid="12" type="Access" value=""/>
+        </data>
+        <data name="Confirmation . &quot;Good&quot;" oldname="" type="Information" x="1586" y="750">
+            <link feature="none" sourceid="35" type="Store" value=""/>
+            <link feature="none" sourceid="28" type="Access" value=""/>
+        </data>
+        <data name="Produce tick" oldname="" type="Information" x="1914" y="754">
+            <link feature="none" sourceid="35" type="Store" value=""/>
+            <link feature="none" sourceid="30" type="Access" value=""/>
+        </data>
+        <data name="Suggestion :&#10;&quot;Wait Speed reach 80 kt&quot;" oldname="Information" type="Information" x="2163" y="820">
+            <link feature="none" sourceid="37" type="Store" value=""/>
+            <link feature="none" sourceid="38" type="Access" value=""/>
+        </data>
+        <data name="Produce hourglass" oldname="" type="Information" x="2396" y="820">
+            <link feature="none" sourceid="37" type="Store" value=""/>
+            <link feature="none" sourceid="40" type="Access" value=""/>
+        </data>
+        <data name="Seggestion:&#10; &quot;Move the Sidestick&#10;in a new position&quot;" oldname="Seggestion:&#10; &quot;Move the Sidestick&#10;in a new position&quot;" type="Information" x="3045" y="754">
+            <link feature="none" sourceid="46" type="Access" value=""/>
+            <link feature="none" sourceid="47" type="Store" value=""/>
+        </data>
+        <data name="Sidestick circle" oldname="" type="Information" x="3093" y="1008">
+            <link feature="none" sourceid="48" type="Access" value=""/>
+            <link feature="none" sourceid="47" type="Store" value=""/>
+        </data>
+        <data name="SideStick" oldname="" type="Input Device" x="3608" y="962">
+            <link feature="none" sourceid="53" type="Access" value=""/>
+            <link feature="none" sourceid="54" type="Access" value=""/>
+            <link feature="none" sourceid="55" type="Access" value=""/>
+        </data>
+        <data name="Seggestion:&#10; &quot;Move the THR Lever&#10;in a new position&quot;" oldname="Seggestion:&#10; &quot;Move the Sidestick&#10;in a new position&quot;" type="Information" x="4199" y="757">
+            <link feature="none" sourceid="47" type="Store" value=""/>
+            <link feature="none" sourceid="56" type="Access" value=""/>
+        </data>
+        <data name="Thrust circle" oldname="" type="Information" x="4331" y="1007">
+            <link feature="none" sourceid="47" type="Store" value=""/>
+            <link feature="none" sourceid="59" type="Access" value=""/>
+        </data>
+        <data name="Confirmation . &quot;Good&quot;" oldname="" type="Information" x="3789" y="1015">
+            <link feature="none" sourceid="60" type="Store" value=""/>
+            <link feature="none" sourceid="61" type="Access" value=""/>
+        </data>
+        <data name="Produce tick" oldname="" type="Information" x="4035" y="1005">
+            <link feature="none" sourceid="60" type="Store" value=""/>
+            <link feature="none" sourceid="63" type="Access" value=""/>
+        </data>
+        <data name="Confirmation . &quot;Good&quot;" oldname="" type="Information" x="5079" y="1007">
+            <link feature="none" sourceid="69" type="Store" value=""/>
+            <link feature="none" sourceid="70" type="Access" value=""/>
+        </data>
+        <data name="Produce tick" oldname="" type="Information" x="5322" y="1007">
+            <link feature="none" sourceid="69" type="Store" value=""/>
+            <link feature="none" sourceid="72" type="Access" value=""/>
+        </data>
+        <data name="Hololens" oldname="" type="Device" x="3560" y="1087">
+            <link feature="none" sourceid="40" type="Access" value=""/>
+            <link feature="none" sourceid="38" type="Access" value=""/>
+            <link feature="none" sourceid="46" type="Access" value=""/>
+            <link feature="none" sourceid="48" type="Access" value=""/>
+            <link feature="none" sourceid="61" type="Access" value=""/>
+            <link feature="none" sourceid="63" type="Access" value=""/>
+            <link feature="none" sourceid="56" type="Access" value=""/>
+            <link feature="none" sourceid="59" type="Access" value=""/>
+            <link feature="none" sourceid="70" type="Access" value=""/>
+            <link feature="none" sourceid="72" type="Access" value=""/>
+        </data>
+    </datas>
+    <errors/>
+    <parameters/>
+</hamsters>

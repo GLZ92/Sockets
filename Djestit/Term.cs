@@ -1,4 +1,7 @@
 ﻿using System.Collections.Generic;
+using System;
+
+
 namespace Unica.TemporalExpressionSimulator
 {
     // Enum expressionState
@@ -39,6 +42,11 @@ namespace Unica.TemporalExpressionSimulator
 
         /* Attributi */
         public ExpressionState State { get; protected set; }
+        //public string Id { get; set; }
+        public string Id { get; set; }
+        public string kind = "";
+        public List<Term> Children { get; protected set; }
+
 
         // flag per l'implementazione di alcuni operatori temporali
         internal bool excluded = false;
@@ -131,6 +139,16 @@ namespace Unica.TemporalExpressionSimulator
                 return true;
             }
             return false;
+        }
+
+        public int getX()
+        {
+            return Convert.ToInt32(this.Id.Split(";")[0]);
+        }
+
+        public int getY()
+        {
+            return Convert.ToInt32(this.Id.Split(";")[1]);
         }
     }
 }

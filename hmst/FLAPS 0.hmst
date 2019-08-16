@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamsters version="4">
+    <colors applicationcolor="-11141309" declarativecolor="-1854465" devicecolor="-8879105" eventcolor="-256" informationcolor="-256" inputdevicecolor="-8879105" objectcolor="-14336" outputdevicecolor="-8879105" physicalobjectcolor="-14336" situationalcolor="-3290107" strategiccolor="-4136705" timeccolor="-256"/>
+    <nodes>
+        <task copy="false" critical="0" duration="false" folded="false" help="" id="1" iterative="false" maxexectime="0" minexectime="0" name="FLAPS 0" nb_iteration="0" optional="false" type="subroutine" x="436" y="84">
+            <operator id="2" knowledgeproceduraltype="" type="enable" x="461" y="236">
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="5" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="PNF announces &quot;Check Slats retraction speed&quot;" nb_iteration="0" optional="false" type="perceptive" x="-157" y="322"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="3" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Right Grasp the lever flaps" nb_iteration="0" optional="false" type="Hand Right Grasp" x="137" y="322"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="4" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Right Finger Moves it up to the value 0" nb_iteration="0" optional="false" type="Hand Right Finger Move" x="351" y="322"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="6" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Set the Flaps to the value 0" nb_iteration="0" optional="false" type="input" x="634" y="322"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="7" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="PNF confirm &quot;Flaps 0&quot;" nb_iteration="0" optional="false" type="motor" x="819" y="322"/>
+            </operator>
+        </task>
+    </nodes>
+    <datas>
+        <data name="Set Flaps 0" oldname="Set Flaps to 0" type="Information" x="501" y="471">
+            <link feature="none" sourceid="6" type="Access" value=""/>
+        </data>
+        <data name="Flaps" oldname="Device" type="Device" x="251" y="471">
+            <link feature="none" sourceid="3" type="Access" value=""/>
+            <link feature="none" sourceid="4" type="Access" value=""/>
+            <link feature="none" sourceid="6" type="Access" value=""/>
+        </data>
+    </datas>
+    <errors/>
+    <parameters/>
+</hamsters>

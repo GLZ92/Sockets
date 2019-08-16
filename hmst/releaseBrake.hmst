@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamsters version="4">
+    <colors applicationcolor="-11141309" declarativecolor="-1854465" devicecolor="-8879105" eventcolor="-6250336" informationcolor="-16724941" inputdevicecolor="-8879105" objectcolor="-14336" outputdevicecolor="-8879105" physicalobjectcolor="-14336" situationalcolor="-3290107" strategiccolor="-4136705" timeccolor="-105247"/>
+    <nodes>
+        <task copy="false" critical="0" duration="false" folded="false" help="" id="1" iterative="false" maxexectime="0" minexectime="0" name="Relase Brake" nb_iteration="0" optional="false" type="subroutine" x="595" y="51">
+            <operator id="23" knowledgeproceduraltype="" type="concurrent" x="636" y="131">
+                <operator id="11" knowledgeproceduraltype="" type="enable" x="636" y="177">
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="21" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="379" y="257"/>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="20" name="Display 3D info" nb_iteration="0" optional="false" type="output" x="78" y="257"/>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="9" name="Leg Right Stretch " nb_iteration="0" optional="false" type="leg right stretch" x="577" y="257"/>
+                    <operator id="15" knowledgeproceduraltype="" type="concurrent" x="187" y="279">
+                        <task copy="false" critical="0" duration="false" folded="false" help="" id="14" name="See the information" nb_iteration="0" optional="false" type="sight" x="209" y="337"/>
+                        <task copy="false" critical="0" duration="false" folded="false" help="" id="13" name="See the suggestion " nb_iteration="0" optional="false" type="sight" x="73" y="337"/>
+                    </operator>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="16"  name="See the confirmation: &quot;Good&quot;" nb_iteration="0" optional="false" type="sight" x="1090" y="257"/>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="19"  name="Display 3D confirmation" nb_iteration="0" optional="false" type="output" x="933" y="257"/>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="12"  name="Relase Brake" nb_iteration="0" optional="false" type="input" x="832" y="257"/>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="8"  name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="227" y="257"/>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="10"  name="Leg Right Release &#10;the Brake" nb_iteration="0" optional="false" type="leg right Release" x="700" y="257"/>
+                </operator>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="22" name="Head management" nb_iteration="0" optional="false" subtree="Head management" type="subroutine" x="332" y="131"/>
+            </operator>
+        </task>
+    </nodes>
+    <datas>
+        <data name="Brake" oldname="Device" type="Device" x="676" y="337">
+            <link feature="none" sourceid="10" type="Access" value=""/>
+            <link feature="none" sourceid="9" type="Access" value=""/>
+            <link feature="none" sourceid="12" type="Access" value=""/>
+        </data>
+        <data name="Hololens" oldname="Device" type="Device" x="530" y="435">
+            <link feature="none" sourceid="14" type="Access" value=""/>
+            <link feature="none" sourceid="13" type="Access" value=""/>
+            <link feature="none" sourceid="16" type="Access" value=""/>
+            <link feature="none" sourceid="19" type="Access" value=""/>
+            <link feature="none" sourceid="20" type="Access" value=""/>
+        </data>
+        <data name="Brake circle" oldname="Produced circle" type="Information" x="187" y="425">
+            <link feature="none" sourceid="20" type="Store" value=""/>
+            <link feature="none" sourceid="14" type="Access" value=""/>
+        </data>
+        <data name="Suggestion &quot;Release the Brake&quot;" oldname="Suggestion &quot;Release the Brake" type="Information" x="-87" y="411">
+            <link feature="none" sourceid="20" type="Store" value=""/>
+            <link feature="none" sourceid="13" type="Access" value=""/>
+        </data>
+        <data name="Confirmation  &quot;Good&quot;" oldname="Confirmation . &quot;Good&quot;" type="Information" x="943" y="347">
+            <link feature="none" sourceid="19" type="Store" value=""/>
+            <link feature="none" sourceid="16" type="Access" value=""/>
+        </data>
+        <data name="Produce tick" oldname="" type="Information" x="1155" y="347">
+            <link feature="none" sourceid="19" type="Store" value=""/>
+            <link feature="none" sourceid="16" type="Access" value=""/>
+        </data>
+    </datas>
+    <errors/>
+    <parameters/>
+</hamsters>

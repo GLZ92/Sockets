@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamsters version="4">
+    <colors applicationcolor="-11141309" declarativecolor="-1854465" devicecolor="-8879105" eventcolor="-6250336" informationcolor="-16724992" inputdevicecolor="-8879105" objectcolor="-14336" outputdevicecolor="-8879105" physicalobjectcolor="-14336" situationalcolor="-3290107" strategiccolor="-4136705" timeccolor="-105247"/>
+    <nodes>
+        <task copy="false" critical="0" duration="false" folded="false" help="" id="1" iterative="false" maxexectime="0" minexectime="0" name="Directional control" nb_iteration="0" optional="false" type="subroutine" x="606" y="8">
+            <operator id="58" knowledgeproceduraltype="" type="concurrent" x="656" y="76">
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="57" iterative="true" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Head management" nb_iteration="0" optional="false" subtree="Head management" type="subroutine" x="429" y="72"/>
+                <operator id="46" knowledgeproceduraltype="" type="enable" x="669" y="126">
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="44" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Release Nosewheel Steering" nb_iteration="0" optional="false" type="abstract" x="257" y="168">
+                        <operator id="47" knowledgeproceduraltype="" type="enable" x="331" y="248">
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="33" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="-14" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="34" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="138" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="6" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Release nosewheel steering" nb_iteration="0" optional="false" type="input" x="491" y="328"/>
+                            <operator id="38" knowledgeproceduraltype="" type="concurrent" x="826" y="328">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="37" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the green tick" nb_iteration="0" optional="false" type="sight" x="866" y="401"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="36" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the confirmation: &quot;Good&quot;" nb_iteration="0" optional="false" type="sight" x="683" y="401"/>
+                            </operator>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="54" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D info" nb_iteration="0" optional="false" type="output" x="-163" y="328"/>
+                            <operator id="31" knowledgeproceduraltype="" type="concurrent" x="-54" y="328">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="32" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the information" nb_iteration="0" optional="false" type="sight" x="-34" y="408"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="30" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion" nb_iteration="0" optional="false" type="sight" x="-167" y="408"/>
+                            </operator>
+                            <task copy="false" critical="0" duration="false" folded="false" help="NoseWheel steering : manopola che sta a sinistra" id="5" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Right Release &#10;the nosewheel steering" nb_iteration="0" optional="false" type="Hand Right Release" x="336" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="35" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D confirmation" nb_iteration="0" optional="false" type="output" x="669" y="328"/>
+                        </operator>
+                    </task>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="49" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Airspeed Lower 130 kt" nb_iteration="0" optional="true" type="abstract" x="-632" y="168">
+                        <operator id="50" knowledgeproceduraltype="" type="enable" x="-578" y="248">
+                            <operator id="26" knowledgeproceduraltype="" type="concurrent" x="-727" y="328">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="24" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion:&#10;" nb_iteration="0" optional="false" type="sight" x="-838" y="408"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="25" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the hourglass" nb_iteration="0" optional="false" type="sight" x="-702" y="408"/>
+                            </operator>
+                            <task copy="false" critical="0" duration="true" folded="false" help="" id="27" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Wait" nb_iteration="0" optional="false" type="user" x="-337" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="28" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="-687" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="29" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="-535" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="23" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D info" nb_iteration="0" optional="false" type="output" x="-864" y="328"/>
+                        </operator>
+                    </task>
+                    <task copy="false" critical="0" duration="false" folded="false" help="" id="45" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Press Rudder pedals" nb_iteration="0" optional="false" type="abstract" x="1582" y="168">
+                        <operator id="48" knowledgeproceduraltype="" type="enable" x="1634" y="248">
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="7" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Leg Right Stretch " nb_iteration="0" optional="false" type="leg right stretch" x="1531" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="42" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Analyze the suggestion&#10;" nb_iteration="0" optional="false" type="cognitive_analysis" x="1181" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="9" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Press the rudder pedals" nb_iteration="0" optional="false" type="input" x="1777" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="56" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D confirmation" nb_iteration="0" optional="false" type="output" x="1936" y="328"/>
+                            <operator id="51" knowledgeproceduraltype="" type="concurrent" x="1141" y="348">
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="52" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion" nb_iteration="0" optional="false" type="sight" x="1048" y="419"/>
+                                <task copy="false" critical="0" duration="false" folded="false" help="" id="53" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the information" nb_iteration="0" optional="false" type="sight" x="1181" y="419"/>
+                            </operator>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="39" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the confirmation: &quot;Good&quot;" nb_iteration="0" optional="false" type="sight" x="2093" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="43" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to follow the suggestion" nb_iteration="0" optional="false" type="cognitive_decision" x="1333" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="8" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Leg Right Press &#10;the rudder pedals&#10;" nb_iteration="0" optional="false" type="leg right Press" x="1654" y="328"/>
+                            <task copy="false" critical="0" duration="false" folded="false" help="" id="55" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D info" nb_iteration="0" optional="false" type="output" x="1032" y="328"/>
+                        </operator>
+                    </task>
+                </operator>
+            </operator>
+        </task>
+    </nodes>
+    <datas>
+        <data name="Rudder pedals" oldname="Rudder pedals" type="Device" x="1654" y="408">
+            <link feature="none" sourceid="7" type="Access" value=""/>
+            <link feature="none" sourceid="8" type="Access" value=""/>
+            <link feature="none" sourceid="9" type="Access" value=""/>
+        </data>
+        <data name="Nosewheel steering" oldname="Nosewheel stering" type="Device" x="399" y="439">
+            <link feature="none" sourceid="6" type="Access" value=""/>
+            <link feature="none" sourceid="5" type="Access" value=""/>
+        </data>
+        <data name="Nosewheel Steering circle" oldname="Produced circle" type="Information" x="-136" y="503">
+            <link feature="none" sourceid="32" type="Access" value=""/>
+            <link feature="none" sourceid="54" type="Store" value=""/>
+        </data>
+        <data name="Produce hourglass" oldname="Information" type="Information" x="-738" y="516">
+            <link feature="none" sourceid="23" type="Store" value=""/>
+            <link feature="none" sourceid="25" type="Access" value=""/>
+        </data>
+        <data name="Hololens" oldname="Hololens" type="Device" x="-390" y="545">
+            <link feature="none" sourceid="23" type="Access" value=""/>
+            <link feature="none" sourceid="25" type="Access" value=""/>
+            <link feature="none" sourceid="24" type="Access" value=""/>
+            <link feature="none" sourceid="30" type="Access" value=""/>
+            <link feature="none" sourceid="32" type="Access" value=""/>
+        </data>
+        <data name="Hololens" oldname="Hololens" type="Device" x="1716" y="535">
+            <link feature="none" sourceid="37" type="Access" value=""/>
+            <link feature="none" sourceid="36" type="Access" value=""/>
+            <link feature="none" sourceid="52" type="Access" value=""/>
+            <link feature="none" sourceid="53" type="Access" value=""/>
+            <link feature="none" sourceid="39" type="Access" value=""/>
+            <link feature="none" sourceid="35" type="Access" value=""/>
+        </data>
+        <data name="Suggestion:&#10;&quot;Release the Nosewheel Steering&quot;" oldname="suggestion:&#10;&quot;Release the Nosewheel Steering&quot;" type="Information" x="-305" y="248">
+            <link feature="none" sourceid="54" type="Store" value=""/>
+            <link feature="none" sourceid="30" type="Access" value=""/>
+        </data>
+        <data name="Suggestion:&#10;&quot;Wait until the airspeed&#10;reach 130 knots&quot;" oldname="suggestion:&#10;&quot;Wait until the airspeed&#10;reach 130 knots&quot;" type="Information" x="-981" y="471">
+            <link feature="none" sourceid="23" type="Store" value=""/>
+            <link feature="none" sourceid="24" type="Access" value=""/>
+        </data>
+        <data name="Confirmation . &quot;Good&quot;" oldname="" type="Information" x="606" y="503">
+            <link feature="none" sourceid="35" type="Store" value=""/>
+            <link feature="none" sourceid="36" type="Access" value=""/>
+        </data>
+        <data name="Produce tick" oldname="" type="Information" x="826" y="484">
+            <link feature="none" sourceid="35" type="Store" value=""/>
+            <link feature="none" sourceid="37" type="Access" value=""/>
+        </data>
+        <data name=" Suggestion:&#10;&quot;Press Rudder Pedals&quot;" oldname=" suggestion:&#10;&quot;Press Rudder Pedals&quot;" type="Information" x="1032" y="258">
+            <link feature="none" sourceid="55" type="Store" value=""/>
+            <link feature="none" sourceid="52" type="Access" value=""/>
+        </data>
+        <data name="Rudder pedals circle" oldname="Information" type="Information" x="1085" y="503">
+            <link feature="none" sourceid="55" type="Store" value=""/>
+            <link feature="none" sourceid="53" type="Access" value=""/>
+        </data>
+        <data name="Confirmation  &quot;Good&quot;" oldname="" type="Information" x="2011" y="408">
+            <link feature="none" sourceid="56" type="Store" value=""/>
+            <link feature="none" sourceid="39" type="Access" value=""/>
+        </data>
+    </datas>
+    <errors/>
+    <parameters/>
+</hamsters>

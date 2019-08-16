@@ -9,7 +9,7 @@ namespace Unica.TemporalExpressionSimulator
     {
         /* Attributi */
         // Contiene la lista di operandi da gestire
-        public List<Term> Children { get; protected set; }
+        //public List<Term> Children { get; protected set; }
         public int Index { get; protected set; }
 
 

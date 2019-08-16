@@ -9,7 +9,7 @@ namespace Unica.TemporalExpressionSimulator
     public class Sequence : CompositeTerm
     {
         /* Costruttori */
-        public Sequence() : base() { }
+        public Sequence() : base() { this.Id = ""; }
         /// <summary>
         /// Prende in ingresso un singolo parametro.
         /// </summary>

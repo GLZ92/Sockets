@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamsters version="4">
+    <colors applicationcolor="-11141309" declarativecolor="-1854465" devicecolor="-8879105" eventcolor="-256" informationcolor="-256" inputdevicecolor="-8879105" objectcolor="-14336" outputdevicecolor="-8879105" physicalobjectcolor="-14336" situationalcolor="-3290107" strategiccolor="-4136705" timeccolor="-256"/>
+    <nodes>
+        <task copy="false" critical="0" duration="false" folded="false" help="" id="1" iterative="false" maxexectime="0" minexectime="0" name="Gain Altitude" nb_iteration="0" optional="false" type="subroutine" x="658" y="25">
+            <operator id="3" knowledgeproceduraltype="" type="concurrent" x="691" y="146">
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="2" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Head management" nb_iteration="0" optional="false" type="subroutine" x="424" y="112"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="6" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D info" nb_iteration="0" optional="false" type="output" x="251" y="279"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="5" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Wait" nb_iteration="0" optional="false" type="user" x="908" y="276"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="4" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Pull back the yoke" nb_iteration="0" optional="false" type="input" x="691" y="276"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="7" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Display 3D confirmation" nb_iteration="0" optional="false" type="output" x="1015" y="276"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="8" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the confirmation: &quot;Good&quot;" nb_iteration="0" optional="false" type="sight" x="1190" y="290"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="9" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="See the suggestion" nb_iteration="0" optional="false" type="sight" x="477" y="290"/>
+            </operator>
+        </task>
+    </nodes>
+    <datas>
+        <data name="Pull back the yoke to take off, until you reach 500 foot" oldname="Pull back the yoke to take off. Go up until you reach 500 foot" type="Information" x="285" y="427">
+            <link feature="none" sourceid="6" type="Store" value=""/>
+            <link feature="none" sourceid="9" type="Access" value=""/>
+        </data>
+        <data name="Information" oldname="" type="Information" x="1057" y="395">
+            <link feature="none" sourceid="7" type="Store" value=""/>
+            <link feature="none" sourceid="8" type="Access" value=""/>
+        </data>
+    </datas>
+    <errors/>
+    <parameters/>
+</hamsters>

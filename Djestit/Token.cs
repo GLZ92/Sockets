@@ -19,5 +19,7 @@ namespace Unica.TemporalExpressionSimulator
         {
 
         }
+
+        public String ID = "";
     }
 }

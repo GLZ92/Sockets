@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamsters version="4">
+    <colors applicationcolor="-11141309" declarativecolor="-1854465" devicecolor="-8879105" eventcolor="-6250336" informationcolor="-256" inputdevicecolor="-8879105" objectcolor="-14336" outputdevicecolor="-8879105" physicalobjectcolor="-14336" situationalcolor="-3290107" strategiccolor="-4136705" timeccolor="-105247"/>
+    <nodes>
+        <task copy="false" critical="0" duration="false" folded="false" help="" id="1" iterative="false" maxexectime="0" minexectime="0" name="Gear up" nb_iteration="0" optional="false" type="subroutine" x="372" y="50">
+            <operator id="4" knowledgeproceduraltype="" type="enable" x="397" y="130">
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="5" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="He decides to retract &#10;the gear up" nb_iteration="0" optional="false" type="cognitive_decision" x="-11" y="210"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="6" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Right Finger &#10;Grip the gear lever" nb_iteration="0" optional="false" type="Hand Right Finger Grip" x="131" y="210"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="7" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Right Finger&#10; Move up the lever" nb_iteration="0" optional="false" type="Hand Right Finger Move" x="260" y="210"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="8" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Move up the  gear lever" nb_iteration="0" optional="false" type="input" x="386" y="210"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="9" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Gear button &quot;Light Off&quot;" nb_iteration="0" optional="false" type="output" x="537" y="210"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="10" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="PNF announce &quot;Gear up&quot;" nb_iteration="0" optional="false" type="perceptive" x="683" y="210"/>
+            </operator>
+        </task>
+    </nodes>
+    <datas>
+        <data name="Retract  gear up" oldname="Retract the gear up" type="Information" x="29" y="314">
+            <link feature="none" sourceid="5" type="Store" value=""/>
+            <link feature="none" sourceid="8" type="Access" value=""/>
+        </data>
+        <data name="Gear lever" oldname="Device" type="Device" x="285" y="314">
+            <link feature="none" sourceid="8" type="Access" value=""/>
+            <link feature="none" sourceid="7" type="Access" value=""/>
+            <link feature="none" sourceid="6" type="Access" value=""/>
+        </data>
+    </datas>
+    <errors/>
+    <parameters/>
+</hamsters>

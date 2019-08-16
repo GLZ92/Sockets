@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamsters version="4">
+    <colors applicationcolor="-11141309" declarativecolor="-1854465" devicecolor="-8879105" eventcolor="-256" informationcolor="-256" inputdevicecolor="-8879105" objectcolor="-14336" outputdevicecolor="-8879105" physicalobjectcolor="-14336" situationalcolor="-3290107" strategiccolor="-4136705" timeccolor="-256"/>
+    <nodes>
+        <task copy="false" critical="0" duration="false" folded="false" help="" id="9" iterative="false" maxexectime="0" minexectime="0" name="FLAPS 1" nb_iteration="0" optional="false" type="subroutine" x="603" y="83">
+            <operator id="12" knowledgeproceduraltype="" type="enable" x="625" y="211">
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="10" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Announce &quot;Check retraction speed&quot;" nb_iteration="0" optional="false" type="perceptive" x="51" y="353"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="5" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Decide to set the FLAPS at 1" nb_iteration="0" optional="false" type="cognitive_decision" x="270" y="353"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="7" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Right Grasp the lever flaps" nb_iteration="0" optional="false" type="Hand Right Grasp" x="445" y="353"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="6" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Hand Right Finger Moves it up to the value 1" nb_iteration="0" optional="false" type="Hand Right Finger Move" x="649" y="353"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="8" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Set the Flaps to the value 1" nb_iteration="0" optional="false" type="input" x="914" y="353"/>
+                <task copy="false" critical="0" duration="false" folded="false" help="" id="11" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="PND confirm &quot;Flaps 1&quot;" nb_iteration="0" optional="false" type="motor" x="1123" y="353"/>
+            </operator>
+        </task>
+    </nodes>
+    <datas>
+        <data name="Flaps" oldname="Device" type="Device" x="722" y="512">
+            <link feature="none" sourceid="7" type="Access" value=""/>
+            <link feature="none" sourceid="6" type="Access" value=""/>
+            <link feature="none" sourceid="8" type="Access" value=""/>
+        </data>
+        <data name="Set the flaps 1" oldname="Information" type="Information" x="419" y="512">
+            <link feature="none" sourceid="5" type="Access" value=""/>
+            <link feature="none" sourceid="8" type="Access" value=""/>
+        </data>
+    </datas>
+    <errors/>
+    <parameters/>
+</hamsters>
